@@ -19,6 +19,15 @@
  */
 
 @theme inline {
+  --color-paper: var(--paper);
+  --color-cream: var(--cream);
+  --color-ink: var(--ink);
+  --color-amber: var(--amber);
+  --color-ochre: var(--ochre);
+  --color-clay: var(--clay);
+  --color-sage: var(--sage);
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Karla", system-ui, sans-serif;
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
@@ -63,6 +72,15 @@
 
 :root {
   --radius: 0.625rem;
+
+  /* Field-notebook palette */
+  --paper: oklch(0.951 0.021 88);
+  --cream: oklch(0.926 0.031 88);
+  --ink: oklch(0.246 0.017 71);
+  --amber: oklch(0.647 0.116 71);
+  --ochre: oklch(0.583 0.116 62);
+  --clay: oklch(0.487 0.111 47);
+  --sage: oklch(0.487 0.043 116);
   --background: oklch(1 0 0);
   --foreground: oklch(0.129 0.042 264.695);
   --card: oklch(1 0 0);
@@ -141,4 +159,38 @@
     background-color: var(--color-background);
     color: var(--color-foreground);
   }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@utility reveal {
+  animation: rise 0.85s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+
+  @media (prefers-reduced-motion: reduce) {
+    animation: none;
+  }
+}
+
+@utility chrome-seal {
+  background: radial-gradient(
+    120% 120% at 30% 18%,
+    #ffffff 0%,
+    #dfe3ec 26%,
+    #a7adba 52%,
+    #79808f 80%,
+    #616878 100%
+  );
+  box-shadow:
+    inset 0 2px 3px rgba(255, 255, 255, 0.9),
+    inset 0 -3px 6px rgba(0, 0, 0, 0.28),
+    0 3px 8px rgba(0, 0, 0, 0.2);
 }
