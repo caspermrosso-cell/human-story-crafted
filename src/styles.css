@@ -19,6 +19,15 @@
  */
 
 @theme inline {
+  --color-paper: var(--paper);
+  --color-cream: var(--cream);
+  --color-ink: var(--ink);
+  --color-amber: var(--amber);
+  --color-ochre: var(--ochre);
+  --color-clay: var(--clay);
+  --color-sage: var(--sage);
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Karla", system-ui, sans-serif;
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
