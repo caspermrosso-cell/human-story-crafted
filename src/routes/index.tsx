@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 
-import officeDesk from "../assets/office-desk.jpg";
+import officeImage from "../assets/view-modern-office.jpg.asset.json";
 import logoAsset from "../assets/ibge-logo.png.asset.json";
 
 export const Route = createFileRoute("/")({
@@ -224,10 +224,10 @@ function Index() {
             <div className="reveal lg:col-span-5">
               <div className="relative">
                 <img
-                  src={officeDesk}
+                  src={officeImage.url}
                   width={1024}
                   height={1280}
-                  alt="Ledgers, invoices and a fountain pen on a wooden desk in a Dar es Salaam office"
+                  alt="Modern office meeting space with bright yellow walls and comfortable seating"
                   className="aspect-[4/5] w-full rounded-[14px] object-cover outline-1 -outline-offset-1 outline-black/5"
                 />
                 <div className="chrome-seal absolute -bottom-6 -right-4 grid size-28 place-items-center rounded-full text-center">
