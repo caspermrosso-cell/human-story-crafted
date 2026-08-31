@@ -294,10 +294,10 @@ function Index() {
                   month may need a building supervised the next.
                 </p>
                 <p>
-                  Our directors are Gasper Mrosso and Alfred Lukatila. We keep the client list small
-                  enough that the person who signs the papers is the person who did the work, and we
-                  bring in tradesmen and specialists we have worked with before rather than whoever
-                  is cheapest.
+                  Our directors are Gasper Mrosso, Nana Liundi and Evarist Michael. We keep the
+                  client list small enough that the person who signs the papers is the person who did
+                  the work, and we bring in tradesmen and specialists we have worked with before
+                  rather than whoever is cheapest.
                 </p>
               </div>
               <div className="mt-8 border-t border-ink/15 pt-5">
@@ -328,7 +328,7 @@ function Index() {
                   </div>
                   <div className="flex justify-between gap-4 border-b border-ink/10 pb-3">
                     <dt className="text-ink/60">Directors</dt>
-                    <dd className="text-right text-ink">Gasper Mrosso &middot; Alfred Lukatila</dd>
+                    <dd className="text-right text-ink">Gasper Mrosso &middot; Nana Liundi &middot; Evarist Michael</dd>
                   </div>
                   <div className="flex justify-between gap-4">
                     <dt className="text-ink/60">Address</dt>
