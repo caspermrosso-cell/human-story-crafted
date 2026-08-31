@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 
 import officeDesk from "../assets/office-desk.jpg";
+import logoAsset from "../assets/ibge-logo.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
