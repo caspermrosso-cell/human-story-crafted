@@ -385,19 +385,19 @@ function Index() {
                 <div>
                   <p className="text-[11px] uppercase tracking-[0.2em] text-clay">Email</p>
                   <a
-                    href="mailto:info@ibge.co.tz"
+                    href="mailto:info@ige.co.tz"
                     className="mt-1 block text-ink/80 underline underline-offset-4 transition-colors hover:text-ink"
                   >
-                    info@ibge.co.tz
+                    info@ige.co.tz
                   </a>
                 </div>
                 <div>
                   <p className="text-[11px] uppercase tracking-[0.2em] text-clay">Call</p>
                   <a
-                    href="tel:+255222004621"
+                    href="tel:+255745670202"
                     className="mt-1 block text-ink/80 underline underline-offset-4 transition-colors hover:text-ink"
                   >
-                    +255 22 200 4621
+                    +255745670202
                   </a>
                 </div>
               </div>
