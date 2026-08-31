@@ -13,7 +13,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "A Dar es Salaam company offering consultancy, training, tourism, ICT, supply, construction, transport and property services across the Tanzania Mainland.",
+          "A Dar es Salaam company offering consultancy, training, tourism, ICT, supply, construction, transport and property services across the Tanzania.",
       },
       {
         property: "og:title",
@@ -196,7 +196,7 @@ function Index() {
           <div className="grid gap-12 lg:grid-cols-12 lg:gap-10">
             <div className="reveal lg:col-span-7">
               <p className="text-[11px] uppercase tracking-[0.22em] text-clay">
-                Dar es Salaam &middot; Tanzania Mainland
+                Dar es Salaam &middot; Tanzania
               </p>
               <h1 className="mt-5 max-w-[40ch] font-display text-4xl leading-tight text-ink sm:text-5xl lg:text-6xl">
                 One company, many trades, and a clear note of what we will deliver.
@@ -288,7 +288,7 @@ function Index() {
               <div className="mt-6 max-w-[56ch] space-y-4 text-base leading-relaxed text-ink/75">
                 <p>
                   Integrated Business and General Enterprises Tanzania Limited is incorporated under
-                  the Companies Act, 2002 (CAP 212) and registered in the Tanzania Mainland. We were
+                  the Companies Act, 2002 (CAP 212) and registered in the Tanzania. We were
                   set up to take on work across several trades rather than one, because that is how
                   business is actually done here &mdash; a client who needs a feasibility study this
                   month may need a building supervised the next.
@@ -320,7 +320,7 @@ function Index() {
                   </div>
                   <div className="flex justify-between gap-4 border-b border-ink/10 pb-3">
                     <dt className="text-ink/60">Registered in</dt>
-                    <dd className="text-right text-ink">Tanzania Mainland</dd>
+                    <dd className="text-right text-ink">Tanzania</dd>
                   </div>
                   <div className="flex justify-between gap-4 border-b border-ink/10 pb-3">
                     <dt className="text-ink/60">Liability</dt>
@@ -379,7 +379,7 @@ function Index() {
                   <p className="mt-1 text-ink/80">
                     P.O. Box 4621, Dar es Salaam
                     <br />
-                    Tanzania Mainland
+                    Tanzania
                   </p>
                 </div>
                 <div>
@@ -490,7 +490,7 @@ function Index() {
             <p className="text-xs leading-relaxed">
               Incorporated under the Companies Act, 2002 (CAP 212).
               <br />
-              Registered in the Tanzania Mainland.
+              Registered in the Tanzania.
             </p>
           </div>
           <div className="mt-8 border-t border-cream/15 pt-5 text-xs">
