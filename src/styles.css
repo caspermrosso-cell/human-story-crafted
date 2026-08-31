@@ -72,6 +72,15 @@
 
 :root {
   --radius: 0.625rem;
+
+  /* Field-notebook palette */
+  --paper: oklch(0.951 0.021 88);
+  --cream: oklch(0.926 0.031 88);
+  --ink: oklch(0.246 0.017 71);
+  --amber: oklch(0.647 0.116 71);
+  --ochre: oklch(0.583 0.116 62);
+  --clay: oklch(0.487 0.111 47);
+  --sage: oklch(0.487 0.043 116);
   --background: oklch(1 0 0);
   --foreground: oklch(0.129 0.042 264.695);
   --card: oklch(1 0 0);
