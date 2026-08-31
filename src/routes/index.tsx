@@ -151,15 +151,15 @@ function Index() {
       <header className="bg-paper">
         <div className="mx-auto max-w-6xl px-6 lg:px-8">
           <div className="flex items-center justify-between py-5">
-            <div className="flex items-center gap-3">
-              <span className="grid size-9 place-items-center rounded-[10px] bg-ink font-display text-lg text-cream">
-                I
-              </span>
-              <div className="leading-tight">
-                <p className="font-display text-lg text-ink">Integrated Business &amp; General Enterprises</p>
-                <p className="text-[11px] uppercase tracking-[0.18em] text-clay">Tanzania Limited</p>
-              </div>
-            </div>
+            <a href="#" className="flex items-center">
+              <img
+                src={logoAsset.url}
+                width={1240}
+                height={1240}
+                alt="Integrated Business and General Enterprises Tanzania Limited"
+                className="h-14 w-auto sm:h-16"
+              />
+            </a>
             <nav className="hidden items-center gap-8 text-sm md:flex">
               <a
                 href="#services"
