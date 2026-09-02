@@ -157,7 +157,7 @@ function Index() {
                 width={1240}
                 height={1240}
                 alt="Integrated Business and General Enterprises Tanzania Limited"
-                className="h-14 w-auto sm:h-16"
+                className="h-70 w-auto sm:h-80"
               />
             </a>
             <nav className="hidden items-center gap-8 text-sm md:flex">
