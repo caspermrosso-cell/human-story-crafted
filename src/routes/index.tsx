@@ -157,7 +157,7 @@ function Index() {
                 width={1240}
                 height={1240}
                 alt="Integrated Business and General Enterprises Tanzania Limited"
-                className="h-14 w-auto sm:h-16"
+                className="h-70 w-auto sm:h-80"
               />
             </a>
             <nav className="hidden items-center gap-8 text-sm md:flex">
@@ -194,7 +194,7 @@ function Index() {
       <section className="bg-paper">
         <div className="mx-auto max-w-6xl px-6 pb-16 pt-14 lg:px-8 lg:pb-24 lg:pt-20">
           <div className="grid gap-12 lg:grid-cols-12 lg:gap-10">
-            <div className="reveal lg:col-span-7">
+            <div className="reveal lg:col-span-12">
               <p className="text-[11px] uppercase tracking-[0.22em] text-clay">
                 Dar es Salaam &middot; Tanzania
               </p>
@@ -221,16 +221,16 @@ function Index() {
                 </a>
               </div>
             </div>
-            <div className="reveal lg:col-span-5">
+            <div className="reveal lg:col-span-12">
               <div className="relative">
                 <img
                   src={officeImage.url}
                   width={1280}
                   height={854}
                   alt="IBGE reception area with company logo, modern desks and waiting seating"
-                  className="aspect-[3/2] w-full rounded-[14px] object-cover outline-1 -outline-offset-1 outline-black/5"
+                  className="aspect-[16/10] w-full rounded-[14px] object-cover outline-1 -outline-offset-1 outline-black/5"
                 />
-                <div className="chrome-seal absolute -bottom-6 -right-4 grid size-28 place-items-center rounded-full text-center">
+                <div className="chrome-seal absolute -bottom-6 right-6 grid size-28 place-items-center rounded-full text-center sm:right-10 lg:right-14">
                   <div className="flex flex-col items-center leading-none">
                     <span className="text-[9px] uppercase tracking-[0.2em] text-ink/70">Reg.</span>
                     <span className="font-display text-2xl text-ink">TZ</span>
