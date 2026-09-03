@@ -1,8 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 
-import officeImage from "../assets/ibge-office-reception.png.asset.json";
-import logoAsset from "../assets/ibge-logo.png.asset.json";
+const officeImageUrl = "/images/ibge-office-reception.jpg";
+const logoUrl = "/images/ibge-logo.png";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -153,7 +153,7 @@ function Index() {
           <div className="flex items-center justify-between py-5">
             <a href="#" className="flex items-center">
               <img
-                src={logoAsset.url}
+                src={logoUrl}
                 width={1240}
                 height={1240}
                 alt="Integrated Business and General Enterprises Tanzania Limited"
@@ -224,7 +224,7 @@ function Index() {
             <div className="reveal lg:col-span-12">
               <div className="relative">
                 <img
-                  src={officeImage.url}
+                  src={officeImageUrl}
                   width={1280}
                   height={854}
                   alt="IBGE reception area with company logo, modern desks and waiting seating"
