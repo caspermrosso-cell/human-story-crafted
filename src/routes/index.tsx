@@ -1,8 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 
-import officeImage from "../assets/ibge-office-reception.png.asset.json";
-import logoAsset from "../assets/ibge-logo.png.asset.json";
+const officeImageUrl = "/images/ibge-office-reception.jpg";
+const logoUrl = "/images/ibge-logo.png";
 
 export const Route = createFileRoute("/")({
   head: () => ({
