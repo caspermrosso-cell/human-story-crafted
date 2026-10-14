@@ -180,6 +180,12 @@ function Index() {
                 Process
               </a>
               <a
+                href="#partners"
+                className="text-ink/70 transition-colors hover:text-ink hover:underline hover:underline-offset-4"
+              >
+                Partners
+              </a>
+              <a
                 href="#contact"
                 className="rounded-full bg-ink px-4 py-2 text-cream ring-1 ring-ink transition-transform hover:-translate-y-0.5"
               >
@@ -359,6 +365,37 @@ function Index() {
                 <p className="mt-2 text-sm leading-relaxed text-ink/70">{step.body}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section id="partners" className="bg-paper">
+        <div className="mx-auto max-w-6xl px-6 pb-16 pt-14 lg:px-8 lg:pb-24 lg:pt-20">
+          <div className="border-t border-ink/15 pt-12">
+            <div className="grid gap-10 lg:grid-cols-12 lg:gap-12">
+              <div className="reveal lg:col-span-6">
+                <p className="text-[11px] uppercase tracking-[0.22em] text-clay">Our partners</p>
+                <h2 className="mt-3 max-w-[46ch] font-display text-3xl leading-tight text-ink sm:text-4xl">
+                  A short list of the firms we actually work alongside.
+                </h2>
+                <p className="mt-5 max-w-[54ch] text-base leading-relaxed text-ink/75">
+                  We would rather name a few companies we have worked with than show a wall of
+                  logos. If a partner is listed here, it is because we have done work with them and
+                  would do so again.
+                </p>
+              </div>
+              <div className="reveal lg:col-span-6">
+                <div className="flex h-full flex-col items-center justify-center rounded-[14px] bg-cream px-8 py-12 ring-1 ring-black/5 sm:px-12">
+                  <img
+                    src="/images/omnicomm-logo.png"
+                    width={1200}
+                    height={198}
+                    alt="Omnicomm — fuel data you can trust"
+                    className="w-full max-w-[400px]"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
