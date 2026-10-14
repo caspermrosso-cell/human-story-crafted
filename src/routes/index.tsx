@@ -338,7 +338,10 @@ function Index() {
                   </div>
                   <div className="flex justify-between gap-4">
                     <dt className="text-ink/60">Address</dt>
-                    <dd className="text-right text-ink">P.O. Box 4621, Dar es Salaam</dd>
+                    <dd className="text-right text-ink">
+                      1st Floor, Cost Consult Building, Plot 107/2, Makwaia Street, Regent
+                      Estate, Mikocheni, Dar es Salaam
+                    </dd>
                   </div>
                 </dl>
               </div>
@@ -412,11 +415,15 @@ function Index() {
               </h2>
               <div className="mt-8 space-y-5 text-sm">
                 <div>
-                  <p className="text-[11px] uppercase tracking-[0.2em] text-clay">Write to us</p>
+                  <p className="text-[11px] uppercase tracking-[0.2em] text-clay">Visit us</p>
                   <p className="mt-1 text-ink/80">
-                    P.O. Box 4621, Dar es Salaam
+                    1st Floor, Cost Consult Building
                     <br />
-                    Tanzania
+                    Plot 107/2, Makwaia Street
+                    <br />
+                    Regent Estate, Mikocheni
+                    <br />
+                    Dar es Salaam, Tanzania
                   </p>
                 </div>
                 <div>
