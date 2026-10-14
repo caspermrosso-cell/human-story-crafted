@@ -338,7 +338,10 @@ function Index() {
                   </div>
                   <div className="flex justify-between gap-4">
                     <dt className="text-ink/60">Address</dt>
-                    <dd className="text-right text-ink">P.O. Box 4621, Dar es Salaam</dd>
+                    <dd className="text-right text-ink">
+                      1st Floor, Cost Consult Building, Plot 107/2, Makwaia Street, Regent
+                      Estate, Mikocheni, Dar es Salaam
+                    </dd>
                   </div>
                 </dl>
               </div>
@@ -412,11 +415,15 @@ function Index() {
               </h2>
               <div className="mt-8 space-y-5 text-sm">
                 <div>
-                  <p className="text-[11px] uppercase tracking-[0.2em] text-clay">Write to us</p>
+                  <p className="text-[11px] uppercase tracking-[0.2em] text-clay">Visit us</p>
                   <p className="mt-1 text-ink/80">
-                    P.O. Box 4621, Dar es Salaam
+                    1st Floor, Cost Consult Building
                     <br />
-                    Tanzania
+                    Plot 107/2, Makwaia Street
+                    <br />
+                    Regent Estate, Mikocheni
+                    <br />
+                    Dar es Salaam, Tanzania
                   </p>
                 </div>
                 <div>
@@ -435,6 +442,25 @@ function Index() {
                     className="mt-1 block text-ink/80 underline underline-offset-4 transition-colors hover:text-ink"
                   >
                     +255745670202
+                  </a>
+                </div>
+                <div>
+                  <p className="text-[11px] uppercase tracking-[0.2em] text-clay">Chat with us</p>
+                  <a
+                    href="https://wa.me/255757300200"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-1 inline-flex items-center gap-2 text-ink/80 underline underline-offset-4 transition-colors hover:text-ink"
+                  >
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      aria-hidden="true"
+                      className="size-4"
+                    >
+                      <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.87 9.87 0 0 0 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2Zm0 18.03a8.1 8.1 0 0 1-4.13-1.13l-.3-.18-3.12.82.83-3.04-.2-.31a8.08 8.08 0 0 1-1.24-4.28c0-4.47 3.64-8.11 8.12-8.11 4.47 0 8.11 3.64 8.11 8.11s-3.64 8.12-8.07 8.12Zm4.45-6.08c-.24-.12-1.44-.71-1.66-.79-.22-.08-.39-.12-.55.12-.16.24-.63.79-.77.95-.14.16-.28.18-.53.06-.24-.12-1.03-.38-1.96-1.21-.72-.64-1.21-1.44-1.35-1.68-.14-.24-.02-.37.11-.5.11-.11.24-.28.37-.42.12-.14.16-.24.24-.4.08-.16.04-.31-.02-.43-.06-.12-.55-1.32-.75-1.81-.2-.48-.4-.41-.55-.42h-.47c-.16 0-.43.06-.65.31-.22.24-.86.84-.86 2.05 0 1.21.88 2.37 1 2.53.12.16 1.72 2.63 4.18 3.69.58.25 1.04.4 1.4.52.59.19 1.12.16 1.54.1.47-.07 1.44-.59 1.64-1.16.2-.57.2-1.05.14-1.16-.06-.1-.22-.16-.46-.28Z" />
+                    </svg>
+                    WhatsApp: +255 757 300 200
                   </a>
                 </div>
               </div>
@@ -522,7 +548,10 @@ function Index() {
               <p className="font-display text-lg text-cream">
                 Integrated Business &amp; General Enterprises Tanzania Ltd
               </p>
-              <p className="mt-1 text-xs">P.O. Box 4621, Dar es Salaam</p>
+              <p className="mt-1 text-xs">
+                1st Floor, Cost Consult Building, Plot 107/2, Makwaia Street, Regent Estate,
+                Mikocheni, Dar es Salaam
+              </p>
             </div>
             <p className="text-xs leading-relaxed">
               Incorporated under the Companies Act, 2002 (CAP 212).
@@ -535,6 +564,19 @@ function Index() {
           </div>
         </div>
       </footer>
+
+      <a
+        href="https://wa.me/255757300200?text=Hello%20IBGE%2C%20I%27d%20like%20to%20make%20an%20enquiry."
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Chat with us on WhatsApp"
+        className="fixed bottom-6 right-6 z-50 flex items-center gap-2.5 rounded-full bg-[#25D366] px-5 py-3.5 text-sm font-medium text-white shadow-lg shadow-black/20 transition-transform hover:-translate-y-0.5 hover:scale-105"
+      >
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" className="size-5">
+          <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.87 9.87 0 0 0 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2Zm0 18.03a8.1 8.1 0 0 1-4.13-1.13l-.3-.18-3.12.82.83-3.04-.2-.31a8.08 8.08 0 0 1-1.24-4.28c0-4.47 3.64-8.11 8.12-8.11 4.47 0 8.11 3.64 8.11 8.11s-3.64 8.12-8.07 8.12Zm4.45-6.08c-.24-.12-1.44-.71-1.66-.79-.22-.08-.39-.12-.55.12-.16.24-.63.79-.77.95-.14.16-.28.18-.53.06-.24-.12-1.03-.38-1.96-1.21-.72-.64-1.21-1.44-1.35-1.68-.14-.24-.02-.37.11-.5.11-.11.24-.28.37-.42.12-.14.16-.24.24-.4.08-.16.04-.31-.02-.43-.06-.12-.55-1.32-.75-1.81-.2-.48-.4-.41-.55-.42h-.47c-.16 0-.43.06-.65.31-.22.24-.86.84-.86 2.05 0 1.21.88 2.37 1 2.53.12.16 1.72 2.63 4.18 3.69.58.25 1.04.4 1.4.52.59.19 1.12.16 1.54.1.47-.07 1.44-.59 1.64-1.16.2-.57.2-1.05.14-1.16-.06-.1-.22-.16-.46-.28Z" />
+        </svg>
+        Chat with us
+      </a>
     </div>
   );
 }
