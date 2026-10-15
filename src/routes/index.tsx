@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 
 const officeImageUrl = "/images/ibge-office-reception.jpg";
-const logoUrl = "/images/ibge-logo.png";
+const logoUrl = "/images/ige-mark.png";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -151,14 +151,24 @@ function Index() {
       <header className="bg-paper">
         <div className="mx-auto max-w-6xl px-6 lg:px-8">
           <div className="flex items-center justify-between py-5">
-            <a href="#" className="flex items-center">
-              <img
-                src={logoUrl}
-                width={1240}
-                height={1240}
-                alt="Integrated Business and General Enterprises Tanzania Limited"
-                className="h-36 w-auto sm:h-40"
-              />
+            <a href="#" className="flex items-center gap-4">
+              <span className="grid size-20 shrink-0 place-items-center rounded-[20px] bg-white p-2.5 ring-1 ring-ink/10 sm:size-24">
+                <img
+                  src={logoUrl}
+                  width={960}
+                  height={960}
+                  alt="Integrated Business and General Enterprises Tanzania Limited"
+                  className="h-full w-full object-contain"
+                />
+              </span>
+              <span className="leading-tight">
+                <span className="block font-display text-lg text-ink sm:text-2xl">
+                  Integrated Business &amp; General
+                </span>
+                <span className="mt-1 block text-[10px] uppercase tracking-[0.2em] text-clay sm:text-[11px]">
+                  Enterprises Tanzania Ltd
+                </span>
+              </span>
             </a>
             <nav className="hidden items-center gap-8 text-sm md:flex">
               <a

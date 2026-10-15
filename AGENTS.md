@@ -8,3 +8,6 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Keep app images in `public/images/` and reference them by literal `/images/...` path; never Lovable CDN asset pointers. The site is delivered on the custom domain www.ige.co.tz, where the CDN path does not resolve.
+
