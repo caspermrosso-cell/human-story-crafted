@@ -438,10 +438,10 @@ function Index() {
                 <div>
                   <p className="text-[11px] uppercase tracking-[0.2em] text-clay">Call</p>
                   <a
-                    href="tel:+255745670202"
+                    href="tel:+255784670202"
                     className="mt-1 block text-ink/80 underline underline-offset-4 transition-colors hover:text-ink"
                   >
-                    +255745670202
+                    +255784670202
                   </a>
                 </div>
                 <div>
